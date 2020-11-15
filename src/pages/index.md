@@ -5,8 +5,8 @@ image: /img/hero.jpg
 heading: Veterinary Physiotherapist in Manchester
 subheading: Veterinary Physiotherapy
 mainpitch:
-  title: " "
-  description: " "
+  title: Delete me
+  description: "delete me "
 description: "Sun Hill Veterinary Physiotherapy is a family run veterinary
   physiotherapy centre based in Greater Manchester focusing on the
   physiotherapeutic treatment and rehabilitation of horses and canines. We pride
