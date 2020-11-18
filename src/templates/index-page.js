@@ -17,19 +17,13 @@ export const IndexPageTemplate = ({
 }) => (
   <div>
     <section class="hero">
-      <div class="body">
-        <div class="container full-x">
-          <div class="bb-grid lg align-items-center">
-            <div class="column">
-              <img
-                src={
-                  !!image.childImageSharp
-                    ? image.childImageSharp.fluid.src
-                    : image
-                }
-              />
-            </div>
-          </div>
+      <div class="container full-x">
+        <div class="bb-grid lg align-items-center">
+          <img
+            src={
+              !!image.childImageSharp ? image.childImageSharp.fluid.src : image
+            }
+          />
         </div>
       </div>
     </section>
