@@ -18,21 +18,16 @@ export const IndexPageTemplate = ({
   <div>
     <section class="hero">
       <div class="body">
-        <div class="container">
-          <div class="bb-grid lg">
+        <div class="container full-x">
+          <div class="bb-grid lg align-items-center">
             <div class="column">
-              <div
-                className="full-width-image margin-top-0"
-                style={{
-                  backgroundImage: `url(${
-                    !!image.childImageSharp
-                      ? image.childImageSharp.fluid.src
-                      : image
-                  })`,
-                  backgroundPosition: `top left`,
-                  backgroundAttachment: `fixed`,
-                }}
-              ></div>
+              <img
+                src={
+                  !!image.childImageSharp
+                    ? image.childImageSharp.fluid.src
+                    : image
+                }
+              />
             </div>
           </div>
         </div>
