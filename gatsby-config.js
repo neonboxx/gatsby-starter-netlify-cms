@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: "Sun Hill Farm - Veterinary Physiotherapy",
     description:
-      "This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.",
+      "Sun Hill Veterinary Physiotherapy is a family run veterinary physiotherapy centre based in Greater Manchester focusing on the physiotherapeutic treatment and rehabilitation of horses and canines. We pride ourselves on providing friendly yet professional services and a quality of care second to none for your beloved animals.",
   },
   plugins: [
     "gatsby-plugin-react-helmet",
