@@ -24,6 +24,7 @@ export const IndexPageTemplate = ({
               !!image.childImageSharp ? image.childImageSharp.fluid.src : image
             }
           />
+          <h1>Coming soon</h1>
         </div>
       </div>
     </section>
