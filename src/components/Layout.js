@@ -7,7 +7,7 @@ import useSiteMetadata from "./SiteMetadata";
 import { withPrefix } from "gatsby";
 
 const TemplateWrapper = ({ children }) => {
-  const { title, description } = useSiteMetadata();
+  const { title, description, siteUrl } = useSiteMetadata();
   return (
     <div>
       <Helmet>
@@ -56,7 +56,7 @@ const TemplateWrapper = ({ children }) => {
         <meta property="og:url" content="/" />
         <meta
           property="og:image"
-          content={`${withPrefix(
+          content={`${siteUrl}${withPrefix(
             "/"
           )}img/shf-veterinary-physiotherapy-social-assets-cover-photo-2.jpg`}
         />
