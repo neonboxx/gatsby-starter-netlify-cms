@@ -22,11 +22,9 @@ export const IndexPageTemplate = ({
       <div className="body">
         <div className="container full-x">
           <div className="bb-grid lg">
-            <div className="column column-3 text-center"></div>
-            <div className="column column-6 p-5 text-center">
+            <div className="column column-8 column-offset-4 p-5 text-center">
               <Logo />
             </div>
-            <div className="column column-3 text-center"></div>
           </div>
         </div>
       </div>
