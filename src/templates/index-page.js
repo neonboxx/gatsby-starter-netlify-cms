@@ -16,9 +16,9 @@ export const IndexPageTemplate = ({
   intro,
 }) => (
   <div>
-    <section class="hero">
-      <div class="container full-x">
-        <div class="bb-grid lg align-items-center">
+    <section className="hero">
+      <div className="container full-x">
+        <div className="bb-grid lg align-items-center">
           <img
             src={
               !!image.childImageSharp ? image.childImageSharp.fluid.src : image
