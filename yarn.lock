@@ -3093,6 +3093,11 @@ bcrypt-pbkdf@^1.0.0:
   dependencies:
     tweetnacl "^0.14.3"
 
+bearbones@^0.36.4:
+  version "0.36.4"
+  resolved "https://registry.yarnpkg.com/bearbones/-/bearbones-0.36.4.tgz#ee4b49ca3bddb990fdacd941e702e13b52f0e8bd"
+  integrity sha512-CqEWHbDE6SYLK0idgFlwG79QJvoXdH2jRyPXnJ/IOK1i4DCdqgVln057NVw9iSUd5Wo/LSzGHzRd7B3AaX5FlQ==
+
 better-assert@~1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/better-assert/-/better-assert-1.0.2.tgz#40866b9e1b9e0b55b481894311e68faffaebc522"

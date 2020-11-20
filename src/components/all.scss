@@ -1,0 +1,7 @@
+$primary-color: #1f2739;
+$primary-pair: #f1e8de;
+$base-pair: $primary-pair;
+@import "bearbones/scss/bearbones";
+.text-center {
+  text-align: center;
+}
