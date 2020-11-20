@@ -9,7 +9,7 @@ import { withPrefix } from "gatsby";
 const TemplateWrapper = ({ children }) => {
   const { title, description, siteUrl } = useSiteMetadata();
   return (
-    <div>
+    <>
       <Helmet>
         <html lang="en" />
         <title>{title}</title>
@@ -44,7 +44,10 @@ const TemplateWrapper = ({ children }) => {
           color="#ff4400"
         />
         <meta name="theme-color" content="#fff" />
-
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
         <meta property="og:type" content="business.business" />
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
@@ -56,8 +59,8 @@ const TemplateWrapper = ({ children }) => {
           )}img/shf-veterinary-physiotherapy-social-assets-cover-photo-2.jpg`}
         />
       </Helmet>
-      <div>{children}</div>
-    </div>
+      <main>{children}</main>
+    </>
   );
 };
 

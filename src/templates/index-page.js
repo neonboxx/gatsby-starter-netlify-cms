@@ -16,9 +16,8 @@ export const IndexPageTemplate = ({
   description,
   intro,
 }) => (
-  <div>
-    <section className="hero full-y primary">
-      <div className="head"></div>
+  <section>
+    <div className="hero full-y primary">
       <div className="body">
         <div className="container full-x">
           <div className="bb-grid lg">
@@ -30,15 +29,15 @@ export const IndexPageTemplate = ({
       </div>
       <div className="tail">
         <div className="container">
-          <div className="bb-grid lg">
+          <div className="bb-grid lg m-0">
             <div className="column text-center">
               <h2>Coming soon</h2>
             </div>
           </div>
         </div>
       </div>
-    </section>
-  </div>
+    </div>
+  </section>
 );
 
 IndexPageTemplate.propTypes = {
