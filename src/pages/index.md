@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
-title: "Sun Hill Farm"
-image: /img/shf-veterinary-physiotherapy-social-assets-cover-photo-2.jpg
+title: Sun Hill Farm
+image: /img/shf-veterinary-physiotherapy-social-assets-profile-photo-1.jpg
 heading: Veterinary Physiotherapist in Manchester
 subheading: Veterinary Physiotherapy
 mainpitch:
