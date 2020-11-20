@@ -3,6 +3,7 @@ module.exports = {
     title: "Sun Hill Farm - Veterinary Physiotherapy",
     description:
       "Sun Hill Veterinary Physiotherapy is a family run veterinary physiotherapy centre based in Greater Manchester focusing on the physiotherapeutic treatment and rehabilitation of horses and canines. We pride ourselves on providing friendly yet professional services and a quality of care second to none for your beloved animals.",
+    siteUrl: "https://sunhillfarm.co.uk/",
   },
   plugins: [
     "gatsby-plugin-react-helmet",
