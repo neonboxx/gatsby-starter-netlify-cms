@@ -5,6 +5,7 @@ import { Link, graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Features from "../components/Features";
 import BlogRoll from "../components/BlogRoll";
+import Logo from "../../static/img/logo.svg";
 
 export const IndexPageTemplate = ({
   image,
@@ -18,17 +19,17 @@ export const IndexPageTemplate = ({
   <div>
     <section className="hero full-y primary">
       <div className="head"></div>
-      <div
-        className="body"
-        style={{
-          background: `url(${
-            !!image.childImageSharp ? image.childImageSharp.fluid.src : image
-          })`,
-          backgroundPosition: "center",
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "contain",
-        }}
-      ></div>
+      <div className="body">
+        <div className="container full-x">
+          <div className="bb-grid lg">
+            <div className="column column-3 text-center"></div>
+            <div className="column column-6 p-5 text-center">
+              <Logo />
+            </div>
+            <div className="column column-3 text-center"></div>
+          </div>
+        </div>
+      </div>
       <div className="tail">
         <div className="container">
           <div className="bb-grid lg">

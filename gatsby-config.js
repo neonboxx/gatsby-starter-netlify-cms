@@ -43,6 +43,14 @@ module.exports = {
             },
           },
           {
+            resolve: "gatsby-plugin-react-svg",
+            options: {
+              rule: {
+                include: /static\/img/,
+              },
+            },
+          },
+          {
             resolve: "gatsby-remark-images",
             options: {
               // It's important to specify the maxWidth (in pixels) of
