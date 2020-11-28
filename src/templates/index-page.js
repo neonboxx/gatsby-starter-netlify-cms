@@ -30,9 +30,6 @@ export const IndexPageTemplate = ({
       <div className="tail">
         <div className="container">
           <div className="bb-grid lg m-0">
-            <div className="column text-center">
-              <h2>Coming soon</h2>
-            </div>
           </div>
         </div>
       </div>
