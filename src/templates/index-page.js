@@ -6,6 +6,7 @@ import Layout from "../components/Layout";
 import Features from "../components/Features";
 import BlogRoll from "../components/BlogRoll";
 import Logo from "../../static/img/logo.svg";
+import Navbar from "../components/Navbar";
 
 export const IndexPageTemplate = ({
   image,
@@ -18,6 +19,9 @@ export const IndexPageTemplate = ({
 }) => (
   <section>
     <div className="hero full-y primary">
+      <div className="head">
+      <Navbar></Navbar>
+      </div>
       <div className="body">
         <div className="container full-x">
           <div className="bb-grid lg">

@@ -1,7 +1,12 @@
 $primary-color: #1f2739;
 $primary-pair: #f1e8de;
+$secondary-color: $primary-pair;
+$secondary-pair: $primary-color;
 $base-pair: $primary-pair;
-@import "bearbones/scss/bearbones";
+$base-colour: $primary-pair;
+$navbar-variant-background: $primary-color;
+$navbar-variant-color: $primary-pair;
+@import 'bearbones/scss/bearbones';
 .text-center {
-  text-align: center;
+	text-align: center;
 }
