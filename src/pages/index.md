@@ -1,17 +1,17 @@
 ---
 templateKey: index-page
 title: Sun Hill Farm
-image: /img/shf-veterinary-physiotherapy-social-assets-profile-photo-1.jpg
+image: /img/hero.jpg
 heading: Veterinary Physiotherapist in Manchester
 subheading: Veterinary Physiotherapy
 mainpitch:
   title: Delete me
-  description: "delete me "
-description: "Sun Hill Veterinary Physiotherapy is a family run veterinary
+  description: 'delete me '
+description: 'Sun Hill Veterinary Physiotherapy is a family run veterinary
   physiotherapy centre based in Greater Manchester focusing on the
   physiotherapeutic treatment and rehabilitation of horses and canines. We pride
   ourselves on providing friendly yet professional services and a quality of
-  care second to none for your beloved animals. "
+  care second to none for your beloved animals. '
 intro:
   blurbs:
     - image: /img/horse.png

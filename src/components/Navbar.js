@@ -10,7 +10,7 @@ const Navbar = () => {
 				<div className="brand">
 					<a className="item" href="#">
 						<div className="logo">
-							<Logo></Logo>
+							<Logo />
 						</div>
 					</a>
 					<div className="toggle" onClick={() => setShowMenu(!showMenu)}>
@@ -19,7 +19,7 @@ const Navbar = () => {
 						<span aria-hidden="true"></span>
 					</div>
 				</div>
-				<div className={`items  ${showMenu && 'active'}`}>
+				<div className={`items primary ${showMenu && 'active'}`}>
 					<div className="right">
 						<Link className="item" to="/blog">
 							Our Services
@@ -34,7 +34,7 @@ const Navbar = () => {
 							About Us
 						</Link>
 						<div className="item">
-							<a className="bb-btn secondary outline">Contact Us</a>
+							<a className="bb-btn primary outline">Contact Us</a>
 						</div>
 					</div>
 				</div>

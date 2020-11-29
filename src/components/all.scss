@@ -1,12 +1,17 @@
 $primary-color: #1f2739;
-$primary-pair: #f1e8de;
-$secondary-color: $primary-pair;
+$primary-pair: $primary-color;
+$secondary-color: $primary-color;
 $secondary-pair: $primary-color;
-$base-pair: $primary-pair;
-$base-colour: $primary-pair;
-$navbar-variant-background: $primary-color;
-$navbar-variant-color: $primary-pair;
+$base-pair: $primary-color;
+$base-colour: $primary-color;
+$navbar-variant-background: rgba(0, 0, 0, 0);
+$navbar-variant-color: $primary-color;
 @import 'bearbones/scss/bearbones';
 .text-center {
 	text-align: center;
+}
+.logo {
+	path: {
+		fill: $primary-color;
+	}
 }
