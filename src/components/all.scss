@@ -7,6 +7,9 @@ $base-colour: $primary-color;
 $navbar-variant-background: rgba(0, 0, 0, 0);
 $navbar-variant-color: $primary-color;
 @import 'bearbones/scss/bearbones';
+article {
+	padding: 5em;
+}
 .text-center {
 	text-align: center;
 }
