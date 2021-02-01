@@ -18,3 +18,8 @@ article {
 		fill: $primary-color;
 	}
 }
+.content-block .reverse {
+	.bb-grid {
+		flex-direction: row-reverse;
+	}
+}
