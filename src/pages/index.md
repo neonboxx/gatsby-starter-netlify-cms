@@ -1,35 +1,31 @@
 ---
 templateKey: index-page
-title: Sun Hill Farm
 image: /img/hero.jpg
-heading: Veterinary Physiotherapist in Manchester
-subheading: Veterinary Physiotherapy
-mainpitch:
-  title: Delete me
-  description: 'delete me '
-description: 'Sun Hill Veterinary Physiotherapy is a family run veterinary
-  physiotherapy centre based in Greater Manchester focusing on the
-  physiotherapeutic treatment and rehabilitation of horses and canines. We pride
-  ourselves on providing friendly yet professional services and a quality of
-  care second to none for your beloved animals. '
-intro:
-  blurbs:
-    - image: /img/horse.png
-      text: horse info
-    - image: /img/dog.png
-      text: Dog info
-  heading: What we offer
-  description: x
-main:
-  heading: x
-  description: x
-  image1:
-    alt: A landscape
-    image: /img/hero.jpg
-  image2:
-    alt: A horse
-    image: /img/horse.png
-  image3:
-    alt: a dog
-    image: /img/dog.png
+heading: Animal Wellness for the long run
+cta:
+  text: Explore services & treaments
+  link: /treatments
+description: 'Sun Hill Farm Veterinary Physiotherapy provides canine and equine
+				physiotherapy for animals who are recovering from injury or surgery,
+				and also general health and wellness.'
+promo:
+  title: Promo
+  header: £100 for 3 sessions
+  body: Equine rehabilitation therapy session introductory offer
+  cta:
+    text: Contact Us
+    link: /contaact-us
+articles:
+  - image: /img/horse.png
+    title: Spotting signs of injury
+    body: 'There are many conditions that can benefit from physiotherapy. The first step is identifying signs of these conditions or injuries. Use our guide to learn more about these signs.'
+    cta:
+      text: Signs of injury
+      link: /signs-of-injury
+  - image: /img/horse.png
+    title: We Strive to be a Home From Home
+    body: 'With long term health and wellbeing remaining at the forefront of everything we do, Sun Hill Farm Veterinary Physiotherapy is a place where care and compassion comes first and where results are for the long-run.'
+    cta:
+      text: Abuot us
+      link: /about-us
 ---

@@ -1,7 +1,7 @@
 $primary-color: #1f2739;
-$primary-pair: $primary-color;
+//$primary-pair: $primary-color;
 $secondary-color: $primary-color;
-$secondary-pair: $primary-color;
+//$secondary-pair: $primary-color;
 $base-pair: $primary-color;
 $base-colour: $primary-color;
 $navbar-variant-background: rgba(0, 0, 0, 0);
@@ -17,6 +17,9 @@ article {
 	path: {
 		fill: $primary-color;
 	}
+}
+.promo {
+	color: $secondary-pair;
 }
 .content-block .reverse {
 	.bb-grid {
