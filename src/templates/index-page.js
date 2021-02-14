@@ -1,10 +1,10 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import { graphql } from 'gatsby';
 import Header from '../components/Header';
 import Layout from '../components/Layout';
 import Navbar from '../components/Navbar';
 import ContentBlock from '../components/ContentBlock';
+import Cards from '../components/Cards';
+import PropTypes from 'prop-types';
 
 export const IndexPageTemplate = ({
 	image,
@@ -12,7 +12,8 @@ export const IndexPageTemplate = ({
 	heading,
 	cta,
 	description,
-	articles
+	articles,
+	cards
 }) => (
 	<section>
 		<div
@@ -33,7 +34,6 @@ export const IndexPageTemplate = ({
 					promo={promo}
 					body={description}
 					cta={cta}
-					promo={promo}
 				></Header>
 			</div>
 		</div>
@@ -46,49 +46,7 @@ export const IndexPageTemplate = ({
 				ctaLink={article.cta.link}
 			/>)}
 		</div>
-		<div className="container full-x content-block">
-			<div className="bb-grid md justify-content-center">
-				<div className="column column-3">
-					<div className="bb-card">
-						<div className="image">
-							<figure>
-								<img src={`${!!image.childImageSharp ? image.childImageSharp.fluid.src : image }`} alt="" />
-							</figure>
-						</div>
-						<div className="content">
-							Lorem ipsum dolor sit amet, consectetur adipiscing
-							elit. Phasellus nec iaculis mauris.
-						</div>	
-					</div>
-				</div>
-				<div className="column column-3">
-					<div className="bb-card">
-						<div className="image">
-							<figure>
-								<img src={`${!!image.childImageSharp ? image.childImageSharp.fluid.src : image }`} alt="" />
-							</figure>
-						</div>
-						<div className="content">
-							Lorem ipsum dolor sit amet, consectetur adipiscing
-							elit. Phasellus nec iaculis mauris.
-						</div>	
-					</div>
-				</div>
-				<div className="column column-3">
-					<div className="bb-card">
-						<div className="image">
-							<figure>
-								<img src={`${!!image.childImageSharp ? image.childImageSharp.fluid.src : image }`} alt="" />
-							</figure>
-						</div>
-						<div className="content">
-							Lorem ipsum dolor sit amet, consectetur adipiscing
-							elit. Phasellus nec iaculis mauris.
-						</div>	
-					</div>
-				</div>
-			</div>
-		</div>
+		<Cards items={cards}/>
 	</section>
 );
 
@@ -113,6 +71,7 @@ const IndexPage = ({ data }) => {
 				promo={frontmatter.promo}
 				description={frontmatter.description}
 				articles={frontmatter.articles}
+				cards={frontmatter.cards}
 			/>
 		</Layout>
 	);
@@ -156,6 +115,21 @@ export const pageQuery = graphql`
 					}
 				}
 				articles {
+					image {
+						childImageSharp {
+							fluid(maxWidth: 240, quality: 64) {
+								...GatsbyImageSharpFluid
+							}
+						}
+					}
+					title
+					body
+					cta {
+						link
+						text
+					}
+				},
+				cards {
 					image {
 						childImageSharp {
 							fluid(maxWidth: 240, quality: 64) {

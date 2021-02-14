@@ -28,4 +28,23 @@ articles:
     cta:
       text: Abuot us
       link: /about-us
+cards:
+  - image: /img/horse.png
+    title: Spotting signs of injury
+    body: 'There are many conditions that can benefit from physiotherapy. The first step is identifying signs of these conditions or injuries. Use our guide to learn more about these signs.'
+    cta:
+      text: Signs of injury
+      link: /signs-of-injury
+  - image: /img/horse.png
+    title: Spotting signs of injury
+    body: 'There are many conditions that can benefit from physiotherapy. The first step is identifying signs of these conditions or injuries. Use our guide to learn more about these signs.'
+    cta:
+      text: Signs of injury
+      link: /signs-of-injury
+  - image: /img/horse.png
+    title: Spotting signs of injury
+    body: 'There are many conditions that can benefit from physiotherapy. The first step is identifying signs of these conditions or injuries. Use our guide to learn more about these signs.'
+    cta:
+      text: Signs of injury
+      link: /signs-of-injury
 ---
